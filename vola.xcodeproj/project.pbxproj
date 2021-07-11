@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1828FE5E269B9B7E0097B747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828FE5D269B9B7E0097B747 /* AppDelegate.swift */; };
+		1828FE60269B9B7E0097B747 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828FE5F269B9B7E0097B747 /* SceneDelegate.swift */; };
+		1828FE62269B9B7E0097B747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828FE61269B9B7E0097B747 /* ViewController.swift */; };
+		1828FE65269B9B7E0097B747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1828FE63269B9B7E0097B747 /* Main.storyboard */; };
+		1828FE67269B9B810097B747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1828FE66269B9B810097B747 /* Assets.xcassets */; };
+		1828FE6A269B9B810097B747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1828FE68269B9B810097B747 /* LaunchScreen.storyboard */; };
+		1828FE75269B9B820097B747 /* volaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828FE74269B9B820097B747 /* volaTests.swift */; };
+		1828FE80269B9B820097B747 /* volaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828FE7F269B9B820097B747 /* volaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1828FE71269B9B820097B747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1828FE52269B9B7E0097B747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1828FE59269B9B7E0097B747;
+			remoteInfo = vola;
+		};
+		1828FE7C269B9B820097B747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1828FE52269B9B7E0097B747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1828FE59269B9B7E0097B747;
+			remoteInfo = vola;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1828FE5A269B9B7E0097B747 /* vola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1828FE5D269B9B7E0097B747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1828FE5F269B9B7E0097B747 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1828FE61269B9B7E0097B747 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1828FE64269B9B7E0097B747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1828FE66269B9B810097B747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1828FE69269B9B810097B747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1828FE6B269B9B810097B747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1828FE70269B9B820097B747 /* volaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = volaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1828FE74269B9B820097B747 /* volaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volaTests.swift; sourceTree = "<group>"; };
+		1828FE76269B9B820097B747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1828FE7B269B9B820097B747 /* volaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = volaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1828FE7F269B9B820097B747 /* volaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volaUITests.swift; sourceTree = "<group>"; };
+		1828FE81269B9B820097B747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1828FE57269B9B7E0097B747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828FE6D269B9B820097B747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828FE78269B9B820097B747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1828FE51269B9B7E0097B747 = {
+			isa = PBXGroup;
+			children = (
+				1828FE5C269B9B7E0097B747 /* vola */,
+				1828FE73269B9B820097B747 /* volaTests */,
+				1828FE7E269B9B820097B747 /* volaUITests */,
+				1828FE5B269B9B7E0097B747 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1828FE5B269B9B7E0097B747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1828FE5A269B9B7E0097B747 /* vola.app */,
+				1828FE70269B9B820097B747 /* volaTests.xctest */,
+				1828FE7B269B9B820097B747 /* volaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1828FE5C269B9B7E0097B747 /* vola */ = {
+			isa = PBXGroup;
+			children = (
+				1828FE5D269B9B7E0097B747 /* AppDelegate.swift */,
+				1828FE5F269B9B7E0097B747 /* SceneDelegate.swift */,
+				1828FE61269B9B7E0097B747 /* ViewController.swift */,
+				1828FE63269B9B7E0097B747 /* Main.storyboard */,
+				1828FE66269B9B810097B747 /* Assets.xcassets */,
+				1828FE68269B9B810097B747 /* LaunchScreen.storyboard */,
+				1828FE6B269B9B810097B747 /* Info.plist */,
+			);
+			path = vola;
+			sourceTree = "<group>";
+		};
+		1828FE73269B9B820097B747 /* volaTests */ = {
+			isa = PBXGroup;
+			children = (
+				1828FE74269B9B820097B747 /* volaTests.swift */,
+				1828FE76269B9B820097B747 /* Info.plist */,
+			);
+			path = volaTests;
+			sourceTree = "<group>";
+		};
+		1828FE7E269B9B820097B747 /* volaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1828FE7F269B9B820097B747 /* volaUITests.swift */,
+				1828FE81269B9B820097B747 /* Info.plist */,
+			);
+			path = volaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1828FE59269B9B7E0097B747 /* vola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1828FE84269B9B820097B747 /* Build configuration list for PBXNativeTarget "vola" */;
+			buildPhases = (
+				1828FE56269B9B7E0097B747 /* Sources */,
+				1828FE57269B9B7E0097B747 /* Frameworks */,
+				1828FE58269B9B7E0097B747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vola;
+			productName = vola;
+			productReference = 1828FE5A269B9B7E0097B747 /* vola.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1828FE6F269B9B820097B747 /* volaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1828FE87269B9B820097B747 /* Build configuration list for PBXNativeTarget "volaTests" */;
+			buildPhases = (
+				1828FE6C269B9B820097B747 /* Sources */,
+				1828FE6D269B9B820097B747 /* Frameworks */,
+				1828FE6E269B9B820097B747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1828FE72269B9B820097B747 /* PBXTargetDependency */,
+			);
+			name = volaTests;
+			productName = volaTests;
+			productReference = 1828FE70269B9B820097B747 /* volaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1828FE7A269B9B820097B747 /* volaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1828FE8A269B9B820097B747 /* Build configuration list for PBXNativeTarget "volaUITests" */;
+			buildPhases = (
+				1828FE77269B9B820097B747 /* Sources */,
+				1828FE78269B9B820097B747 /* Frameworks */,
+				1828FE79269B9B820097B747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1828FE7D269B9B820097B747 /* PBXTargetDependency */,
+			);
+			name = volaUITests;
+			productName = volaUITests;
+			productReference = 1828FE7B269B9B820097B747 /* volaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1828FE52269B9B7E0097B747 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1828FE59269B9B7E0097B747 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1828FE6F269B9B820097B747 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1828FE59269B9B7E0097B747;
+					};
+					1828FE7A269B9B820097B747 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1828FE59269B9B7E0097B747;
+					};
+				};
+			};
+			buildConfigurationList = 1828FE55269B9B7E0097B747 /* Build configuration list for PBXProject "vola" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1828FE51269B9B7E0097B747;
+			productRefGroup = 1828FE5B269B9B7E0097B747 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1828FE59269B9B7E0097B747 /* vola */,
+				1828FE6F269B9B820097B747 /* volaTests */,
+				1828FE7A269B9B820097B747 /* volaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1828FE58269B9B7E0097B747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1828FE6A269B9B810097B747 /* LaunchScreen.storyboard in Resources */,
+				1828FE67269B9B810097B747 /* Assets.xcassets in Resources */,
+				1828FE65269B9B7E0097B747 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828FE6E269B9B820097B747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828FE79269B9B820097B747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1828FE56269B9B7E0097B747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1828FE62269B9B7E0097B747 /* ViewController.swift in Sources */,
+				1828FE5E269B9B7E0097B747 /* AppDelegate.swift in Sources */,
+				1828FE60269B9B7E0097B747 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828FE6C269B9B820097B747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1828FE75269B9B820097B747 /* volaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1828FE77269B9B820097B747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1828FE80269B9B820097B747 /* volaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1828FE72269B9B820097B747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1828FE59269B9B7E0097B747 /* vola */;
+			targetProxy = 1828FE71269B9B820097B747 /* PBXContainerItemProxy */;
+		};
+		1828FE7D269B9B820097B747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1828FE59269B9B7E0097B747 /* vola */;
+			targetProxy = 1828FE7C269B9B820097B747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1828FE63269B9B7E0097B747 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1828FE64269B9B7E0097B747 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1828FE68269B9B810097B747 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1828FE69269B9B810097B747 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1828FE82269B9B820097B747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1828FE83269B9B820097B747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1828FE85269B9B820097B747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UDRUA35M;
+				INFOPLIST_FILE = vola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fekra.vola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1828FE86269B9B820097B747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UDRUA35M;
+				INFOPLIST_FILE = vola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fekra.vola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1828FE88269B9B820097B747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UDRUA35M;
+				INFOPLIST_FILE = volaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fekra.volaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vola.app/vola";
+			};
+			name = Debug;
+		};
+		1828FE89269B9B820097B747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UDRUA35M;
+				INFOPLIST_FILE = volaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fekra.volaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vola.app/vola";
+			};
+			name = Release;
+		};
+		1828FE8B269B9B820097B747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UDRUA35M;
+				INFOPLIST_FILE = volaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fekra.volaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vola;
+			};
+			name = Debug;
+		};
+		1828FE8C269B9B820097B747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63UDRUA35M;
+				INFOPLIST_FILE = volaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Fekra.volaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = vola;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1828FE55269B9B7E0097B747 /* Build configuration list for PBXProject "vola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1828FE82269B9B820097B747 /* Debug */,
+				1828FE83269B9B820097B747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1828FE84269B9B820097B747 /* Build configuration list for PBXNativeTarget "vola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1828FE85269B9B820097B747 /* Debug */,
+				1828FE86269B9B820097B747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1828FE87269B9B820097B747 /* Build configuration list for PBXNativeTarget "volaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1828FE88269B9B820097B747 /* Debug */,
+				1828FE89269B9B820097B747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1828FE8A269B9B820097B747 /* Build configuration list for PBXNativeTarget "volaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1828FE8B269B9B820097B747 /* Debug */,
+				1828FE8C269B9B820097B747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1828FE52269B9B7E0097B747 /* Project object */;
+}
