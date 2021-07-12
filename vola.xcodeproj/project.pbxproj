@@ -15,6 +15,9 @@
 		1828FE6A269B9B810097B747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1828FE68269B9B810097B747 /* LaunchScreen.storyboard */; };
 		1828FE75269B9B820097B747 /* volaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828FE74269B9B820097B747 /* volaTests.swift */; };
 		1828FE80269B9B820097B747 /* volaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828FE7F269B9B820097B747 /* volaUITests.swift */; };
+		3B9FA090CAA48EFFD2413F65 /* Pods_vola.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D624FC793B1B5F1DEA356E /* Pods_vola.framework */; };
+		90E947B04EB82802276FE40C /* Pods_vola_volaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8BBE0CC2D01727CEB8F44B /* Pods_vola_volaUITests.framework */; };
+		B3833B2654C1611FC3D9AD6E /* Pods_volaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B292C746AF106384AD8471 /* Pods_volaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17CD3707771F12DB18B10F6A /* Pods-vola-volaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vola-volaUITests.release.xcconfig"; path = "Target Support Files/Pods-vola-volaUITests/Pods-vola-volaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1828FE5A269B9B7E0097B747 /* vola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1828FE5D269B9B7E0097B747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1828FE5F269B9B7E0097B747 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		1828FE7B269B9B820097B747 /* volaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = volaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1828FE7F269B9B820097B747 /* volaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volaUITests.swift; sourceTree = "<group>"; };
 		1828FE81269B9B820097B747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B344E700C95AD0C6BC43B72 /* Pods-vola.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vola.debug.xcconfig"; path = "Target Support Files/Pods-vola/Pods-vola.debug.xcconfig"; sourceTree = "<group>"; };
+		423CD405202B3B42999D671B /* Pods-vola.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vola.release.xcconfig"; path = "Target Support Files/Pods-vola/Pods-vola.release.xcconfig"; sourceTree = "<group>"; };
+		62B292C746AF106384AD8471 /* Pods_volaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_volaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FE8CE80987B9342CBA0887 /* Pods-volaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-volaTests.release.xcconfig"; path = "Target Support Files/Pods-volaTests/Pods-volaTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD8BBE0CC2D01727CEB8F44B /* Pods_vola_volaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vola_volaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF225704208B18935BEAD02 /* Pods-vola-volaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vola-volaUITests.debug.xcconfig"; path = "Target Support Files/Pods-vola-volaUITests/Pods-vola-volaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C2D18E9CBF574A2262936F /* Pods-volaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-volaTests.debug.xcconfig"; path = "Target Support Files/Pods-volaTests/Pods-volaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D624FC793B1B5F1DEA356E /* Pods_vola.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vola.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9FA090CAA48EFFD2413F65 /* Pods_vola.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3833B2654C1611FC3D9AD6E /* Pods_volaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E947B04EB82802276FE40C /* Pods_vola_volaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				1828FE73269B9B820097B747 /* volaTests */,
 				1828FE7E269B9B820097B747 /* volaUITests */,
 				1828FE5B269B9B7E0097B747 /* Products */,
+				D17CB43DBE1019027D4A6598 /* Pods */,
+				5A59BD74F08D2B013297DED3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = volaUITests;
 			sourceTree = "<group>";
 		};
+		5A59BD74F08D2B013297DED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5D624FC793B1B5F1DEA356E /* Pods_vola.framework */,
+				AD8BBE0CC2D01727CEB8F44B /* Pods_vola_volaUITests.framework */,
+				62B292C746AF106384AD8471 /* Pods_volaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D17CB43DBE1019027D4A6598 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B344E700C95AD0C6BC43B72 /* Pods-vola.debug.xcconfig */,
+				423CD405202B3B42999D671B /* Pods-vola.release.xcconfig */,
+				BFF225704208B18935BEAD02 /* Pods-vola-volaUITests.debug.xcconfig */,
+				17CD3707771F12DB18B10F6A /* Pods-vola-volaUITests.release.xcconfig */,
+				D1C2D18E9CBF574A2262936F /* Pods-volaTests.debug.xcconfig */,
+				A6FE8CE80987B9342CBA0887 /* Pods-volaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1828FE84269B9B820097B747 /* Build configuration list for PBXNativeTarget "vola" */;
 			buildPhases = (
+				0BEDB95A1B9BFFA871B6F992 /* [CP] Check Pods Manifest.lock */,
 				1828FE56269B9B7E0097B747 /* Sources */,
 				1828FE57269B9B7E0097B747 /* Frameworks */,
 				1828FE58269B9B7E0097B747 /* Resources */,
+				35F8E6A3ED48A6511F24FE35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1828FE87269B9B820097B747 /* Build configuration list for PBXNativeTarget "volaTests" */;
 			buildPhases = (
+				575C1F136E406DF22AED7D49 /* [CP] Check Pods Manifest.lock */,
 				1828FE6C269B9B820097B747 /* Sources */,
 				1828FE6D269B9B820097B747 /* Frameworks */,
 				1828FE6E269B9B820097B747 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1828FE8A269B9B820097B747 /* Build configuration list for PBXNativeTarget "volaUITests" */;
 			buildPhases = (
+				1030772FA81ABB53965AF5E9 /* [CP] Check Pods Manifest.lock */,
 				1828FE77269B9B820097B747 /* Sources */,
 				1828FE78269B9B820097B747 /* Frameworks */,
 				1828FE79269B9B820097B747 /* Resources */,
+				B52C5D9EB9858A7F42FFE168 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BEDB95A1B9BFFA871B6F992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vola-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1030772FA81ABB53965AF5E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vola-volaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35F8E6A3ED48A6511F24FE35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vola/Pods-vola-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vola/Pods-vola-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vola/Pods-vola-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		575C1F136E406DF22AED7D49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-volaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B52C5D9EB9858A7F42FFE168 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vola-volaUITests/Pods-vola-volaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vola-volaUITests/Pods-vola-volaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vola-volaUITests/Pods-vola-volaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1828FE56269B9B7E0097B747 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		1828FE85269B9B820097B747 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B344E700C95AD0C6BC43B72 /* Pods-vola.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		1828FE86269B9B820097B747 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423CD405202B3B42999D671B /* Pods-vola.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		1828FE88269B9B820097B747 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C2D18E9CBF574A2262936F /* Pods-volaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		1828FE89269B9B820097B747 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FE8CE80987B9342CBA0887 /* Pods-volaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		1828FE8B269B9B820097B747 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF225704208B18935BEAD02 /* Pods-vola-volaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		1828FE8C269B9B820097B747 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CD3707771F12DB18B10F6A /* Pods-vola-volaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
